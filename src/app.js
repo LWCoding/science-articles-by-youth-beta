@@ -16,12 +16,15 @@ hbs.registerPartials(partialsDir)
 
 app.get("/", (req, res) => {
     res.render("index", {
-
+        description: `Science Articles by Youth (SAY) is a youth founded organization focused on bringing knowledge and passion within teens about all branches of science. 
+        Many teens that are extremely knowledgeable in certain aspects of science unfortunately do not have an established platform to spread their knowledge for other teens to benefit from. 
+        SAY aspires to change that. Founded in the summer of 2020, our goal is to provide a platform for teens to channel their passion for science by writing or reading articles about any science topics they are interested in. 
+        SAY is centered in Illinois but has begun spreading its influence to youth from all around America. If you are interested in joining the SAY team, email sciencearticlesbyyouth@gmail.com. Happy reading!`
     })
 })
 
 app.get("/chemistry", (req, res) => {
-    res.render("index", {
+    res.render("chemistry", {
 
     })
 })

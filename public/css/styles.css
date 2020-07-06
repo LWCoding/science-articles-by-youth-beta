@@ -1,5 +1,39 @@
-a {
+header {
+    background-color: #26753a;
+    border: 15px solid #0b3114;
+    padding-bottom: 25px;
+}
+
+header h1 {
+    padding-top: 12px;
+    color: black;
+}
+
+header a {
     font-size: 20px;
     text-decoration: none;
-    color: #888888;
+    color: #ffffff;
+    padding: 0 20px 0 20px;
+    margin: 0 0 0 15px;
+    background-color: #1e82b4;
+    border: 2px solid black;
+}
+
+#say-logo-img {
+    float: left;
+    padding: 25px 20px 0 20px;
+    width: 132px;
+    height: 55px;
+    mix-blend-mode: multiply;
+}
+
+.medium-box {
+    margin: 30px 150px 30px 150px;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: #ececec;
+}
+
+.medium-box p {
+    font-size: 20px;
 }
